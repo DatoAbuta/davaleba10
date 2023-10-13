@@ -81,6 +81,8 @@
         line-height: 26px;
         width: 573px;
         margin-top: 32px;
+        margin-left: 50%;
+        transform: translateX(-50%);
     }
     h5{
         color: #FAFAFA;
