@@ -239,6 +239,23 @@ h4{
     border-radius: 5px;
 }
 
+.photo1:hover{
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+.photo2:hover{
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+.photo3:hover{
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+.photo4:hover{
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+
 .built{
     margin-top: 56px;
     color: #4D96A9;
@@ -314,12 +331,15 @@ h5{
 
 .download:hover{
     background: #71C0D4;
+    cursor: pointer;
 }
 
 .what:hover{
     background: #B18BDD;
+    cursor: pointer;
 }
 
 .download2:hover{
     background: #B18BDD;
+    cursor: pointer;
 }

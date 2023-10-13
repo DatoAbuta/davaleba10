@@ -106,25 +106,51 @@
 }
 @media (width > 1440px)
 {
+    .displaynone{
+        display: inline-flex;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin-top: 90px;
+    }
+    .group{
+        display: none;
+    }
     .kacunebi{
         width: 110px;
         height: 110px;
     }
+    .photoebi{
+        display: flex;
+        gap: 3px;
+    }
     h2{
-        width: 339px;
-        align-self: center;
-        margin-left: 214px;
+        color: #28283D;
+        text-align: center;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 64px; /* 100% */
+        margin: 0;
+        width: 445px;
     }
     p{
-        margin-left: 155px;
-        width: 457px;
+        color: #87879D;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 144.444% */
+        width: 540px;
+        margin: 24px 24px 32px 36px;
     }
     .buttons{
         display: flex;
         padding-top: 30px;
     }
     .download{
-        margin: 0px 16px 250px 197px;
+        margin: 0px 16px 300px 200px;
     }
     .what{
         margin: 0px 235px 287px 16px;
@@ -144,18 +170,6 @@
         grid-template-rows: auto;
         justify-content: center;
     }
-    .built{
-        color: #4D96A9;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 26px;
-        letter-spacing: 4px;
-        text-transform: uppercase;
-        width: 275px;
-        text-align: center;
-        margin-left: 245px;
-    }
     .smarter{
         color: #28283D;
         text-align: center;
@@ -169,45 +183,76 @@
     }
     footer{
         display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+        flex-direction: row;
         width: 100%;
-        height: 428px;
+        height: 305px;
         background: #4D96A9;
-        background-image: url(./asset/Bitmap.svg);
+        background-image: url(./asset/Bitmapi.svg);
         background-repeat: no-repeat;
+        /* text-align: center; */
+    }
+    .built{
+        color: #4D96A9;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        width: 275px;
+        text-align: center;
+        margin-left: 50%;
+        margin-bottom: 16px;
+        transform: translateX(-50%);
     }
     .send{
         color: #87879D;
-        text-align: center;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 26px;
-        width: 573px;
-        margin-top: 32px;
-    }
-    h5{
-        color: #FAFAFA;
-        text-align: center;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 44px;
-        width: 457px;
-    }
-    .footeris{
-        color: #FAFAFA;
         text-align: center;
         font-size: 18px;
         font-style: normal;
         font-weight: 500;
         line-height: 26px;
-        width: 573px;
-        height: 52px;
+        width: 525px;
+        margin-top: 32px;
         margin-left: 50%;
-        transform: translatex(-30%);
+        transform: translateX(-50%);
+    }
+    .photo1{
+        width: 255px;
+        height: 242px;
+    }
+    .photo2{
+        width: 255px;
+        height: 242px;
+    }
+    .photo3{
+        width: 255px;
+        height: 242px;
+    }
+    .photo4{
+        width: 255px;
+        height: 242px;
+    }
+    .exp{
+        color: #FAFAFA;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 44px;
+        margin: 200px 0 200px 100px;
+        width: 350px;
+    }
+    .footeris{
+        color: #FAFAFA;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        margin: 200px 92px 200px 5%;
+        width: 350px;
+        transform: translatex(5%);
+    }
+    .download2{
+        margin: 180px 165px 200px 90px;
     }
 }
